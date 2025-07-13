@@ -1,0 +1,58 @@
+<svg width="500" height="700" viewBox="0 0 500 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="700" fill="#f0f0f0"/>
+  
+  <!-- Header Section -->
+  <rect width="500" height="160" fill="#1e4a72"/>
+  
+  <!-- Company Logo Circle -->
+  <circle cx="80" cy="80" r="35" fill="#ffffff"/>
+  <!-- Lightning Bolt -->
+  <path d="M85 55L70 75H78L75 95L90 75H82L85 55Z" fill="#ff8c00"/>
+  
+  <!-- Company Name -->
+  <text x="130" y="70" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="bold">TSR Volt-Edge</text>
+  <text x="130" y="95" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="normal">ELECTRICAL</text>
+  <text x="130" y="115" fill="#ff8c00" font-family="Arial, sans-serif" font-size="12" font-weight="bold">WIRING COMMUNITIES FOR A</text>
+  <text x="130" y="130" fill="#ff8c00" font-family="Arial, sans-serif" font-size="12" font-weight="bold">BRIGHTER FUTURE</text>
+  
+  <!-- Services Header -->
+  <rect x="0" y="160" width="500" height="40" fill="#d2691e"/>
+  <text x="25" y="185" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">OUR SERVICES</text>
+  
+  <!-- Services List -->
+  <text x="25" y="225" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14" font-weight="normal">• General Electrical Installations</text>
+  <text x="25" y="245" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14" font-weight="normal">• Fault Finding &amp; Maintenance</text>
+  <text x="25" y="265" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14" font-weight="normal">• Prepaid &amp; Conventional Metering</text>
+  <text x="25" y="285" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14" font-weight="normal">• Backup Power &amp; Solar Solutions</text>
+  <text x="25" y="305" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14" font-weight="normal">• Low Voltage Infrastructure Support</text>
+  <text x="25" y="325" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14" font-weight="normal">• Certificates of Compliance (COCs)</text>
+  <text x="25" y="345" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14" font-weight="normal">• Emergency Electrical Services</text>
+  
+  <!-- Who We Serve Section -->
+  <rect x="0" y="370" width="500" height="100" fill="#1e4a72"/>
+  <text x="25" y="395" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="bold">WHO WE SERVE</text>
+  <text x="25" y="415" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">We proudly serve homeowners, businesses, municipalities,</text>
+  <text x="25" y="430" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">and developers—delivering safe, reliable electrical solutions</text>
+  <text x="25" y="445" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">backed by quality workmanship tailored to your needs.</text>
+  
+  <!-- Why Choose Us -->
+  <text x="25" y="490" fill="#1e4a72" font-family="Arial, sans-serif" font-size="18" font-weight="bold">WHY CHOOSE US</text>
+  <text x="25" y="515" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14">✓ Qualified &amp; Licensed Technicians</text>
+  <text x="270" y="515" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14">✓ SABS-Compliant Materials</text>
+  <text x="25" y="535" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14">✓ Fast Turnaround &amp;</text>
+  <text x="270" y="535" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14">✓ Municipal Experience</text>
+  <text x="35" y="550" fill="#1e4a72" font-family="Arial, sans-serif" font-size="14">Trusted workmanship</text>
+  
+  <!-- Call to Action -->
+  <rect x="0" y="570" width="500" height="130" fill="#d2691e"/>
+  <text x="25" y="595" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="bold">LET'S POWER PROGRESS TOGETHER!</text>
+  <text x="25" y="615" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">Call us today or reach us via WhatsApp to book a service</text>
+  <text x="25" y="630" fill="#ffffff" font-family="Arial, sans-serif" font-size="13">or consultation.</text>
+  
+  <!-- Contact Info -->
+  <text x="25" y="655" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">📍 113 First Avenue</text>
+  <text x="250" y="655" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">✉ info@tsrvoltedge.co.za</text>
+  <text x="25" y="675" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">📞 +27 72 694 0358</text>
+  <text x="250" y="675" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">🌐 www.tsrvoltedge.co.za</text>
+</svg>
