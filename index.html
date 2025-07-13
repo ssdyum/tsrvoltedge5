@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TSR Volt-Edge Electrical - Professional Electrical Services</title>
-    <meta name="description" content="TSR Volt-Edge Electrical provides professional electrical services including installations, repairs, and maintenance. Contact us for reliable electrical solutions.">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- ... all your original head content ... -->
 </head>
 <body>
     <!-- Header -->
@@ -36,22 +28,7 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">Wiring Communities for a Brighter Future</h1>
-                <p class="hero-subtitle">Turnkey, compliant, and innovative energy solutions across residential, commercial, and municipal sectors. From basic wiring to complex low voltage infrastructure support.</p>
-                <div class="hero-actions">
-                    <a href="#contact" class="btn btn-primary">Get Quote</a>
-                    <a href="tel:+27726940358" class="btn btn-secondary">
-                        <i data-feather="phone"></i>
-                        Call Now
-                    </a>
-                </div>
-            </div>
-            <div class="hero-flyer">
-                <img src="assets/flyer.svg" alt="TSR Volt-Edge Electrical Services Flyer" class="flyer-image">
-            </div>
-        </div>
+        <!-- ... your hero content ... -->
     </section>
 
     <!-- Services Section -->
@@ -59,42 +36,43 @@
         <div class="container">
             <h2 class="section-title">Our Electrical Services</h2>
             <div class="services-grid">
-                <div class="service-card">
+                <!-- Added data-service attribute for JS prefill -->
+                <div class="service-card" data-service="general-electrical">
                     <div class="service-icon">
                         <i data-feather="zap"></i>
                     </div>
                     <h3 class="service-title">General Electrical Installations</h3>
                     <p class="service-description">Complete electrical installations for residential, commercial, and municipal projects. From basic wiring to complex infrastructure.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-service="fault-finding">
                     <div class="service-icon">
                         <i data-feather="search"></i>
                     </div>
                     <h3 class="service-title">Fault Finding & Maintenance</h3>
                     <p class="service-description">Expert diagnostics and maintenance services including cable fault location and LV diagnostics for optimal system performance.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-service="metering">
                     <div class="service-icon">
                         <i data-feather="activity"></i>
                     </div>
                     <h3 class="service-title">Prepaid & Conventional Metering</h3>
                     <p class="service-description">Professional metering installations and support for both single and three-phase systems, including municipal partnerships.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-service="low-voltage">
                     <div class="service-icon">
                         <i data-feather="settings"></i>
                     </div>
                     <h3 class="service-title">Low Voltage Infrastructure</h3>
                     <p class="service-description">Specialized support for low voltage infrastructure including streetlight installations and public utility services.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-service="backup-solar">
                     <div class="service-icon">
                         <i data-feather="battery"></i>
                     </div>
                     <h3 class="service-title">Backup Power & Solar Solutions</h3>
                     <p class="service-description">Innovative energy solutions including backup power systems and solar installations for sustainable energy independence.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card" data-service="coc">
                     <div class="service-icon">
                         <i data-feather="shield"></i>
                     </div>
@@ -107,140 +85,17 @@
 
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">Why Choose TSR Volt-Edge?</h2>
-                    <div class="about-features">
-                        <div class="feature">
-                            <i data-feather="award"></i>
-                            <div>
-                                <h3>Qualified & Licensed Technicians</h3>
-                                <p>Professional electricians with proper licensing and municipal contracting experience.</p>
-                            </div>
-                        </div>
-                        <div class="feature">
-                            <i data-feather="shield"></i>
-                            <div>
-                                <h3>SABS-Compliant Materials</h3>
-                                <p>All installations use certified materials meeting South African Bureau of Standards requirements.</p>
-                            </div>
-                        </div>
-                        <div class="feature">
-                            <i data-feather="clock"></i>
-                            <div>
-                                <h3>Fast Turnaround & Reliable Service</h3>
-                                <p>Quick response times with dependable service delivery across all project scales.</p>
-                            </div>
-                        </div>
-                        <div class="feature">
-                            <i data-feather="users"></i>
-                            <div>
-                                <h3>Municipal & Contractor Experience</h3>
-                                <p>Proven track record with municipalities, developers, and contractors for complex projects.</p>
-                            </div>
-                        </div>
-                        <div class="feature">
-                            <i data-feather="heart"></i>
-                            <div>
-                                <h3>Community-Centric Approach</h3>
-                                <p>More than a service provider - we are your electrical partner in community progress.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Emergency Services Banner -->
-                    <div class="emergency-banner">
-                        <div class="emergency-content">
-                            <i data-feather="zap"></i>
-                            <div>
-                                <h3>24/7 Emergency Electrical Services</h3>
-                                <p>Power outages, electrical faults, or safety concerns? Call us anytime for immediate assistance.</p>
-                            </div>
-                            <a href="tel:+27726940358" class="emergency-btn">Call Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- ... your about content ... -->
     </section>
 
     <!-- Certifications Section -->
     <section id="certifications" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Professional Certifications & Memberships</h2>
-            <p class="section-subtitle">TSR Volt-Edge maintains the highest industry standards through professional certifications and memberships</p>
-            <div class="certifications-grid">
-                <div class="certification-card">
-                    <div class="cert-icon">
-                        <i data-feather="shield"></i>
-                    </div>
-                    <h3>SABS Certified</h3>
-                    <p>All materials and installation methods comply with South African Bureau of Standards requirements</p>
-                </div>
-                <div class="certification-card">
-                    <div class="cert-icon">
-                        <i data-feather="file-text"></i>
-                    </div>
-                    <h3>Electrical COC Licensed</h3>
-                    <p>Authorized to issue Certificates of Compliance for all electrical installations</p>
-                </div>
-                <div class="certification-card">
-                    <div class="cert-icon">
-                        <i data-feather="users"></i>
-                    </div>
-                    <h3>Municipal Approved</h3>
-                    <p>Pre-approved contractor for municipal electrical projects and infrastructure work</p>
-                </div>
-                <div class="certification-card">
-                    <div class="cert-icon">
-                        <i data-feather="zap"></i>
-                    </div>
-                    <h3>Qualified Electricians</h3>
-                    <p>All technicians hold valid South African electrical trade certificates and licenses</p>
-                </div>
-            </div>
-        </div>
+        <!-- ... your certifications content ... -->
     </section>
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="section">
-        <div class="container">
-            <h2 class="section-title">What Our Clients Say</h2>
-            <p class="section-subtitle">Trusted by homeowners, businesses, and municipalities across Johannesburg</p>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <div class="stars">★★★★★</div>
-                        <p>"TSR Volt-Edge completed our office rewiring project on time and within budget. Their team was professional, clean, and knowledgeable about commercial electrical requirements. Highly recommended for business electrical work."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <strong>Sarah M.</strong>
-                        <span>Office Manager, Randburg</span>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <div class="stars">★★★★★</div>
-                        <p>"Quick response for our electrical emergency! Power was restored within 2 hours of calling. The electrician was courteous, explained the problem clearly, and provided a fair quote. Will definitely use them again."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <strong>John K.</strong>
-                        <span>Homeowner, Sandton</span>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <div class="stars">★★★★★</div>
-                        <p>"TSR Volt-Edge installed our solar backup system and new DB board. Excellent workmanship, all SABS compliant, and they handled the COC paperwork efficiently. Great value for money and professional service."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <strong>Mike & Lisa D.</strong>
-                        <span>Homeowners, Roodepoort</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- ... your testimonials content ... -->
     </section>
 
     <!-- Contact Section -->
@@ -250,18 +105,7 @@
             <div class="contact-content">
                 <div class="contact-form-container">
                     <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Full Name *</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone Number *</label>
-                            <input type="tel" id="phone" name="phone" required>
-                        </div>
+                        <!-- ... all your existing form fields ... -->
                         <div class="form-group">
                             <label for="service">Service Required *</label>
                             <select id="service" name="service" required>
@@ -277,89 +121,17 @@
                                 <option value="other">Other</option>
                             </select>
                         </div>
-                        <div class="form-group">
-                            <label for="message">Project Description *</label>
-                            <textarea id="message" name="message" rows="4" placeholder="Please describe your electrical needs..." required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-full">
-                            <i data-feather="send"></i>
-                            Send Quote Request
-                        </button>
+                        <!-- ... rest of the form ... -->
                     </form>
                 </div>
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <div class="contact-item">
-                        <i data-feather="mail"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <a href="mailto:info@tsrvoltedge.co.za">info@tsrvoltedge.co.za</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i data-feather="phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <a href="tel:+27726940358">+27 72 694 0358</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i data-feather="map-pin"></i>
-                        <div>
-                            <h4>Address</h4>
-                            <p>113 First Avenue</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i data-feather="clock"></i>
-                        <div>
-                            <h4>Business Hours</h4>
-                            <p>Mon-Fri: 7:00 AM - 6:00 PM<br>
-                            Sat: 8:00 AM - 4:00 PM<br>
-                            Emergency: 24/7</p>
-                        </div>
-                    </div>
-                </div>
+                <!-- ... contact info ... -->
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="logo-container">
-                        <img src="assets/logo.png" alt="TSR Volt-Edge Electrical" class="logo">
-                        <span class="company-name">TSR Volt-Edge Electrical</span>
-                    </div>
-                    <p>Turnkey, compliant, and innovative energy solutions. Your electrical partner in progress with safety, compliance, and community empowerment.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="mailto:info@tsrvoltedge.co.za">Email Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Core Services</h4>
-                    <ul>
-                        <li>General Electrical Installations</li>
-                        <li>Fault Finding & Maintenance</li>
-                        <li>Prepaid & Conventional Metering</li>
-                        <li>Low Voltage Infrastructure</li>
-                        <li>Backup Power & Solar Solutions</li>
-                        <li>Certificates of Compliance</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 TSR Volt-Edge Electrical. All rights reserved.</p>
-            </div>
-        </div>
+        <!-- ... your footer content ... -->
     </footer>
 
     <!-- WhatsApp Floating Button -->
@@ -382,6 +154,35 @@
         </div>
     </div>
 
+    <!-- Added script to handle service click and prefill form -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Feather icons init
+        feather.replace();
+
+        // Get all service cards
+        const serviceCards = document.querySelectorAll('.service-card');
+
+        serviceCards.forEach(card => {
+          card.style.cursor = 'pointer'; // to indicate clickable
+
+          card.addEventListener('click', () => {
+            const serviceValue = card.getAttribute('data-service');
+            // Scroll to contact section
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+
+            // Set the select dropdown value after scrolling
+            const serviceSelect = document.getElementById('service');
+            if(serviceSelect) {
+              serviceSelect.value = serviceValue;
+              serviceSelect.focus();
+            }
+          });
+        });
+      });
+    </script>
+
+    <!-- Your existing script.js can remain as is -->
     <script src="script.js"></script>
 </body>
-</html>
+                    </html>
