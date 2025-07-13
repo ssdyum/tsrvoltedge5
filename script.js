@@ -467,3 +467,42 @@ document.addEventListener("DOMContentLoaded", function () {
 
   animatedElements.forEach(el => observer.observe(el));
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  feather.replace();
+
+  // Animate on scroll
+  const animatedElements = document.querySelectorAll('.animate');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  animatedElements.forEach(el => observer.observe(el));
+
+  // Prefill service on contact form
+  const serviceLinks = document.querySelectorAll('.service-link');
+  serviceLinks.forEach(link => {
+    link.addEventListener('click', function () {
+      const selectedService = this.getAttribute('data-service');
+      localStorage.setItem('selectedService', selectedService);
+    });
+  });
+
+  const serviceSelect = document.getElementById('service');
+  const storedService = localStorage.getItem('selectedService');
+
+  if (storedService && serviceSelect) {
+    for (let option of serviceSelect.options) {
+      if (option.value === storedService) {
+        option.selected = true;
+        break;
+      }
+    }
+    localStorage.removeItem('selectedService'); // Clear after use
+  }
+});
